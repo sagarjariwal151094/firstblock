@@ -1,7 +1,7 @@
-import { useBlockProps } from "@wordpress/block-editor";
-import "./editor.scss";
+import { useBlockProps } from '@wordpress/block-editor';
+import './editor.scss';
 
 export default function edit() {
-     const blockProps = useBlockProps();
-     return <p {...blockProps}>Edit JSX Separeted</p>;
+	const blockProps = useBlockProps();
+	return <p {...blockProps}>Edit JSX Separeted</p>;
 }
