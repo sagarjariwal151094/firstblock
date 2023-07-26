@@ -3,5 +3,5 @@ import './editor.scss';
 
 export default function edit() {
 	const blockProps = useBlockProps();
-	return <p {...blockProps}>Edit JSX Separeted</p>;
+	return <p {...blockProps}>Edit JSX Separeted Test</p>;
 }
